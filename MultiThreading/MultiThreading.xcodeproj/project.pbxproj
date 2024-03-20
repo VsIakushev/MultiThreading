@@ -13,6 +13,13 @@
 		5770C4C42BA8DE35004C9B90 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5770C4C22BA8DE35004C9B90 /* Main.storyboard */; };
 		5770C4C62BA8DE38004C9B90 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5770C4C52BA8DE38004C9B90 /* Assets.xcassets */; };
 		5770C4C92BA8DE38004C9B90 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5770C4C72BA8DE38004C9B90 /* LaunchScreen.storyboard */; };
+		5770C4D12BA91CDD004C9B90 /* FreeupMainThread.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5770C4D02BA91CDD004C9B90 /* FreeupMainThread.swift */; };
+		5770C4D32BA920C8004C9B90 /* TimerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5770C4D22BA920C8004C9B90 /* TimerViewController.swift */; };
+		5770C4D52BA92374004C9B90 /* StopAfter5ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5770C4D42BA92374004C9B90 /* StopAfter5ViewController.swift */; };
+		5770C4D72BA9308F004C9B90 /* PrioritiesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5770C4D62BA9308F004C9B90 /* PrioritiesViewController.swift */; };
+		5770C4F92BAA9602004C9B90 /* ThreadSanitizerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5770C4F82BAA9602004C9B90 /* ThreadSanitizerViewController.swift */; };
+		5770C4FB2BAA98F4004C9B90 /* TaskABCViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5770C4FA2BAA98F4004C9B90 /* TaskABCViewController.swift */; };
+		5770C4FD2BAAA419004C9B90 /* ThreadSanitizerLockViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5770C4FC2BAAA419004C9B90 /* ThreadSanitizerLockViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +31,13 @@
 		5770C4C52BA8DE38004C9B90 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5770C4C82BA8DE38004C9B90 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5770C4CA2BA8DE38004C9B90 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5770C4D02BA91CDD004C9B90 /* FreeupMainThread.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FreeupMainThread.swift; sourceTree = "<group>"; };
+		5770C4D22BA920C8004C9B90 /* TimerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerViewController.swift; sourceTree = "<group>"; };
+		5770C4D42BA92374004C9B90 /* StopAfter5ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StopAfter5ViewController.swift; sourceTree = "<group>"; };
+		5770C4D62BA9308F004C9B90 /* PrioritiesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrioritiesViewController.swift; sourceTree = "<group>"; };
+		5770C4F82BAA9602004C9B90 /* ThreadSanitizerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThreadSanitizerViewController.swift; sourceTree = "<group>"; };
+		5770C4FA2BAA98F4004C9B90 /* TaskABCViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskABCViewController.swift; sourceTree = "<group>"; };
+		5770C4FC2BAAA419004C9B90 /* ThreadSanitizerLockViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThreadSanitizerLockViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +73,13 @@
 				5770C4BC2BA8DE35004C9B90 /* AppDelegate.swift */,
 				5770C4BE2BA8DE35004C9B90 /* SceneDelegate.swift */,
 				5770C4C02BA8DE35004C9B90 /* ViewController.swift */,
+				5770C4D02BA91CDD004C9B90 /* FreeupMainThread.swift */,
+				5770C4D22BA920C8004C9B90 /* TimerViewController.swift */,
+				5770C4D42BA92374004C9B90 /* StopAfter5ViewController.swift */,
+				5770C4D62BA9308F004C9B90 /* PrioritiesViewController.swift */,
+				5770C4F82BAA9602004C9B90 /* ThreadSanitizerViewController.swift */,
+				5770C4FC2BAAA419004C9B90 /* ThreadSanitizerLockViewController.swift */,
+				5770C4FA2BAA98F4004C9B90 /* TaskABCViewController.swift */,
 				5770C4C22BA8DE35004C9B90 /* Main.storyboard */,
 				5770C4C52BA8DE38004C9B90 /* Assets.xcassets */,
 				5770C4C72BA8DE38004C9B90 /* LaunchScreen.storyboard */,
@@ -138,9 +159,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5770C4D32BA920C8004C9B90 /* TimerViewController.swift in Sources */,
+				5770C4D12BA91CDD004C9B90 /* FreeupMainThread.swift in Sources */,
 				5770C4C12BA8DE35004C9B90 /* ViewController.swift in Sources */,
 				5770C4BD2BA8DE35004C9B90 /* AppDelegate.swift in Sources */,
 				5770C4BF2BA8DE35004C9B90 /* SceneDelegate.swift in Sources */,
+				5770C4D72BA9308F004C9B90 /* PrioritiesViewController.swift in Sources */,
+				5770C4F92BAA9602004C9B90 /* ThreadSanitizerViewController.swift in Sources */,
+				5770C4FD2BAAA419004C9B90 /* ThreadSanitizerLockViewController.swift in Sources */,
+				5770C4FB2BAA98F4004C9B90 /* TaskABCViewController.swift in Sources */,
+				5770C4D52BA92374004C9B90 /* StopAfter5ViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
