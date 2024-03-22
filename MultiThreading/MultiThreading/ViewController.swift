@@ -7,13 +7,14 @@
 
 import UIKit
 
+
+/// Printing Current Thread
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+//        print(Thread.current)
     }
-
 
 }
 

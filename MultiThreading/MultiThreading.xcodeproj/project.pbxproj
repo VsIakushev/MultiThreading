@@ -13,6 +13,25 @@
 		5770C4C42BA8DE35004C9B90 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5770C4C22BA8DE35004C9B90 /* Main.storyboard */; };
 		5770C4C62BA8DE38004C9B90 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5770C4C52BA8DE38004C9B90 /* Assets.xcassets */; };
 		5770C4C92BA8DE38004C9B90 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5770C4C72BA8DE38004C9B90 /* LaunchScreen.storyboard */; };
+		5770C4D12BA91CDD004C9B90 /* FreeupMainThread.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5770C4D02BA91CDD004C9B90 /* FreeupMainThread.swift */; };
+		5770C4D32BA920C8004C9B90 /* TimerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5770C4D22BA920C8004C9B90 /* TimerViewController.swift */; };
+		5770C4D52BA92374004C9B90 /* StopAfter5ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5770C4D42BA92374004C9B90 /* StopAfter5ViewController.swift */; };
+		5770C4D72BA9308F004C9B90 /* PrioritiesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5770C4D62BA9308F004C9B90 /* PrioritiesViewController.swift */; };
+		5770C4F92BAA9602004C9B90 /* ThreadSanitizerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5770C4F82BAA9602004C9B90 /* ThreadSanitizerViewController.swift */; };
+		5770C4FB2BAA98F4004C9B90 /* TaskABCViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5770C4FA2BAA98F4004C9B90 /* TaskABCViewController.swift */; };
+		5770C4FD2BAAA419004C9B90 /* ThreadSanitizerLockViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5770C4FC2BAAA419004C9B90 /* ThreadSanitizerLockViewController.swift */; };
+		5770C4FF2BABBB78004C9B90 /* SemaphoreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5770C4FE2BABBB78004C9B90 /* SemaphoreViewController.swift */; };
+		5770C5012BABEBB5004C9B90 /* ActorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5770C5002BABEBB5004C9B90 /* ActorViewController.swift */; };
+		5770C5032BAC033A004C9B90 /* DispatchGroupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5770C5022BAC033A004C9B90 /* DispatchGroupViewController.swift */; };
+		5770C5052BAC071A004C9B90 /* DispatchWorkItemViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5770C5042BAC071A004C9B90 /* DispatchWorkItemViewController.swift */; };
+		5770C5072BACE09D004C9B90 /* TroubleShootingTask1and2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5770C5062BACE09D004C9B90 /* TroubleShootingTask1and2ViewController.swift */; };
+		5770C5092BAD042D004C9B90 /* TroubleShootingTask3ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5770C5082BAD042D004C9B90 /* TroubleShootingTask3ViewController.swift */; };
+		5770C50B2BAD09DF004C9B90 /* TroubleShootingTask4ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5770C50A2BAD09DF004C9B90 /* TroubleShootingTask4ViewController.swift */; };
+		5770C50D2BAD0D12004C9B90 /* DispatchWorkItemCancelationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5770C50C2BAD0D12004C9B90 /* DispatchWorkItemCancelationViewController.swift */; };
+		5770C50F2BAD2C43004C9B90 /* SendableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5770C50E2BAD2C43004C9B90 /* SendableViewController.swift */; };
+		5770C5112BAD2CC4004C9B90 /* OperationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5770C5102BAD2CC4004C9B90 /* OperationViewController.swift */; };
+		5770C5132BAD3EBB004C9B90 /* OperationQueueViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5770C5122BAD3EBB004C9B90 /* OperationQueueViewController.swift */; };
+		5770C5152BAD45C5004C9B90 /* OperationsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5770C5142BAD45C5004C9B90 /* OperationsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +43,25 @@
 		5770C4C52BA8DE38004C9B90 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5770C4C82BA8DE38004C9B90 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5770C4CA2BA8DE38004C9B90 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5770C4D02BA91CDD004C9B90 /* FreeupMainThread.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FreeupMainThread.swift; sourceTree = "<group>"; };
+		5770C4D22BA920C8004C9B90 /* TimerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerViewController.swift; sourceTree = "<group>"; };
+		5770C4D42BA92374004C9B90 /* StopAfter5ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StopAfter5ViewController.swift; sourceTree = "<group>"; };
+		5770C4D62BA9308F004C9B90 /* PrioritiesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrioritiesViewController.swift; sourceTree = "<group>"; };
+		5770C4F82BAA9602004C9B90 /* ThreadSanitizerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThreadSanitizerViewController.swift; sourceTree = "<group>"; };
+		5770C4FA2BAA98F4004C9B90 /* TaskABCViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskABCViewController.swift; sourceTree = "<group>"; };
+		5770C4FC2BAAA419004C9B90 /* ThreadSanitizerLockViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThreadSanitizerLockViewController.swift; sourceTree = "<group>"; };
+		5770C4FE2BABBB78004C9B90 /* SemaphoreViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SemaphoreViewController.swift; sourceTree = "<group>"; };
+		5770C5002BABEBB5004C9B90 /* ActorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActorViewController.swift; sourceTree = "<group>"; };
+		5770C5022BAC033A004C9B90 /* DispatchGroupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DispatchGroupViewController.swift; sourceTree = "<group>"; };
+		5770C5042BAC071A004C9B90 /* DispatchWorkItemViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DispatchWorkItemViewController.swift; sourceTree = "<group>"; };
+		5770C5062BACE09D004C9B90 /* TroubleShootingTask1and2ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TroubleShootingTask1and2ViewController.swift; sourceTree = "<group>"; };
+		5770C5082BAD042D004C9B90 /* TroubleShootingTask3ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TroubleShootingTask3ViewController.swift; sourceTree = "<group>"; };
+		5770C50A2BAD09DF004C9B90 /* TroubleShootingTask4ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TroubleShootingTask4ViewController.swift; sourceTree = "<group>"; };
+		5770C50C2BAD0D12004C9B90 /* DispatchWorkItemCancelationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DispatchWorkItemCancelationViewController.swift; sourceTree = "<group>"; };
+		5770C50E2BAD2C43004C9B90 /* SendableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SendableViewController.swift; sourceTree = "<group>"; };
+		5770C5102BAD2CC4004C9B90 /* OperationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OperationViewController.swift; sourceTree = "<group>"; };
+		5770C5122BAD3EBB004C9B90 /* OperationQueueViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OperationQueueViewController.swift; sourceTree = "<group>"; };
+		5770C5142BAD45C5004C9B90 /* OperationsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OperationsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +97,25 @@
 				5770C4BC2BA8DE35004C9B90 /* AppDelegate.swift */,
 				5770C4BE2BA8DE35004C9B90 /* SceneDelegate.swift */,
 				5770C4C02BA8DE35004C9B90 /* ViewController.swift */,
+				5770C4D02BA91CDD004C9B90 /* FreeupMainThread.swift */,
+				5770C4D22BA920C8004C9B90 /* TimerViewController.swift */,
+				5770C4D42BA92374004C9B90 /* StopAfter5ViewController.swift */,
+				5770C4D62BA9308F004C9B90 /* PrioritiesViewController.swift */,
+				5770C4F82BAA9602004C9B90 /* ThreadSanitizerViewController.swift */,
+				5770C4FC2BAAA419004C9B90 /* ThreadSanitizerLockViewController.swift */,
+				5770C4FA2BAA98F4004C9B90 /* TaskABCViewController.swift */,
+				5770C4FE2BABBB78004C9B90 /* SemaphoreViewController.swift */,
+				5770C5002BABEBB5004C9B90 /* ActorViewController.swift */,
+				5770C5022BAC033A004C9B90 /* DispatchGroupViewController.swift */,
+				5770C5042BAC071A004C9B90 /* DispatchWorkItemViewController.swift */,
+				5770C5062BACE09D004C9B90 /* TroubleShootingTask1and2ViewController.swift */,
+				5770C5082BAD042D004C9B90 /* TroubleShootingTask3ViewController.swift */,
+				5770C50A2BAD09DF004C9B90 /* TroubleShootingTask4ViewController.swift */,
+				5770C50C2BAD0D12004C9B90 /* DispatchWorkItemCancelationViewController.swift */,
+				5770C50E2BAD2C43004C9B90 /* SendableViewController.swift */,
+				5770C5102BAD2CC4004C9B90 /* OperationViewController.swift */,
+				5770C5122BAD3EBB004C9B90 /* OperationQueueViewController.swift */,
+				5770C5142BAD45C5004C9B90 /* OperationsViewController.swift */,
 				5770C4C22BA8DE35004C9B90 /* Main.storyboard */,
 				5770C4C52BA8DE38004C9B90 /* Assets.xcassets */,
 				5770C4C72BA8DE38004C9B90 /* LaunchScreen.storyboard */,
@@ -138,9 +195,28 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5770C5092BAD042D004C9B90 /* TroubleShootingTask3ViewController.swift in Sources */,
+				5770C50B2BAD09DF004C9B90 /* TroubleShootingTask4ViewController.swift in Sources */,
+				5770C5012BABEBB5004C9B90 /* ActorViewController.swift in Sources */,
+				5770C4D32BA920C8004C9B90 /* TimerViewController.swift in Sources */,
+				5770C4D12BA91CDD004C9B90 /* FreeupMainThread.swift in Sources */,
+				5770C5132BAD3EBB004C9B90 /* OperationQueueViewController.swift in Sources */,
 				5770C4C12BA8DE35004C9B90 /* ViewController.swift in Sources */,
+				5770C50F2BAD2C43004C9B90 /* SendableViewController.swift in Sources */,
 				5770C4BD2BA8DE35004C9B90 /* AppDelegate.swift in Sources */,
 				5770C4BF2BA8DE35004C9B90 /* SceneDelegate.swift in Sources */,
+				5770C4D72BA9308F004C9B90 /* PrioritiesViewController.swift in Sources */,
+				5770C5072BACE09D004C9B90 /* TroubleShootingTask1and2ViewController.swift in Sources */,
+				5770C5032BAC033A004C9B90 /* DispatchGroupViewController.swift in Sources */,
+				5770C4F92BAA9602004C9B90 /* ThreadSanitizerViewController.swift in Sources */,
+				5770C4FD2BAAA419004C9B90 /* ThreadSanitizerLockViewController.swift in Sources */,
+				5770C5052BAC071A004C9B90 /* DispatchWorkItemViewController.swift in Sources */,
+				5770C5152BAD45C5004C9B90 /* OperationsViewController.swift in Sources */,
+				5770C50D2BAD0D12004C9B90 /* DispatchWorkItemCancelationViewController.swift in Sources */,
+				5770C5112BAD2CC4004C9B90 /* OperationViewController.swift in Sources */,
+				5770C4FB2BAA98F4004C9B90 /* TaskABCViewController.swift in Sources */,
+				5770C4FF2BABBB78004C9B90 /* SemaphoreViewController.swift in Sources */,
+				5770C4D52BA92374004C9B90 /* StopAfter5ViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
