@@ -18,7 +18,7 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         window = UIWindow(windowScene: windowScene)
         window?.makeKeyAndVisible()
         
-        let navigationController = UINavigationController(rootViewController: DispatchWorkItemCancelationViewController())
+        let navigationController = UINavigationController(rootViewController: OperationsViewController())
         
         window?.rootViewController = navigationController
         
