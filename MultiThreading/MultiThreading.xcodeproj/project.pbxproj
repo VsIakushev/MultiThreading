@@ -32,6 +32,11 @@
 		5770C5112BAD2CC4004C9B90 /* OperationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5770C5102BAD2CC4004C9B90 /* OperationViewController.swift */; };
 		5770C5132BAD3EBB004C9B90 /* OperationQueueViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5770C5122BAD3EBB004C9B90 /* OperationQueueViewController.swift */; };
 		5770C5152BAD45C5004C9B90 /* OperationsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5770C5142BAD45C5004C9B90 /* OperationsViewController.swift */; };
+		5770C5172BAE6362004C9B90 /* TaskViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5770C5162BAE6362004C9B90 /* TaskViewController.swift */; };
+		5770C5192BAEA3E9004C9B90 /* AsyncAwaitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5770C5182BAEA3E9004C9B90 /* AsyncAwaitViewController.swift */; };
+		5770C51B2BAEA582004C9B90 /* AsyncAwaitLegacyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5770C51A2BAEA582004C9B90 /* AsyncAwaitLegacyViewController.swift */; };
+		5770C51D2BAEAC75004C9B90 /* CancelTaskViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5770C51C2BAEAC75004C9B90 /* CancelTaskViewController.swift */; };
+		5770C51F2BAEAD35004C9B90 /* TaskGroupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5770C51E2BAEAD35004C9B90 /* TaskGroupViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -62,6 +67,11 @@
 		5770C5102BAD2CC4004C9B90 /* OperationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OperationViewController.swift; sourceTree = "<group>"; };
 		5770C5122BAD3EBB004C9B90 /* OperationQueueViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OperationQueueViewController.swift; sourceTree = "<group>"; };
 		5770C5142BAD45C5004C9B90 /* OperationsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OperationsViewController.swift; sourceTree = "<group>"; };
+		5770C5162BAE6362004C9B90 /* TaskViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskViewController.swift; sourceTree = "<group>"; };
+		5770C5182BAEA3E9004C9B90 /* AsyncAwaitViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsyncAwaitViewController.swift; sourceTree = "<group>"; };
+		5770C51A2BAEA582004C9B90 /* AsyncAwaitLegacyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsyncAwaitLegacyViewController.swift; sourceTree = "<group>"; };
+		5770C51C2BAEAC75004C9B90 /* CancelTaskViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CancelTaskViewController.swift; sourceTree = "<group>"; };
+		5770C51E2BAEAD35004C9B90 /* TaskGroupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskGroupViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,6 +126,11 @@
 				5770C5102BAD2CC4004C9B90 /* OperationViewController.swift */,
 				5770C5122BAD3EBB004C9B90 /* OperationQueueViewController.swift */,
 				5770C5142BAD45C5004C9B90 /* OperationsViewController.swift */,
+				5770C5162BAE6362004C9B90 /* TaskViewController.swift */,
+				5770C5182BAEA3E9004C9B90 /* AsyncAwaitViewController.swift */,
+				5770C51A2BAEA582004C9B90 /* AsyncAwaitLegacyViewController.swift */,
+				5770C51C2BAEAC75004C9B90 /* CancelTaskViewController.swift */,
+				5770C51E2BAEAD35004C9B90 /* TaskGroupViewController.swift */,
 				5770C4C22BA8DE35004C9B90 /* Main.storyboard */,
 				5770C4C52BA8DE38004C9B90 /* Assets.xcassets */,
 				5770C4C72BA8DE38004C9B90 /* LaunchScreen.storyboard */,
@@ -198,8 +213,11 @@
 				5770C5092BAD042D004C9B90 /* TroubleShootingTask3ViewController.swift in Sources */,
 				5770C50B2BAD09DF004C9B90 /* TroubleShootingTask4ViewController.swift in Sources */,
 				5770C5012BABEBB5004C9B90 /* ActorViewController.swift in Sources */,
+				5770C51D2BAEAC75004C9B90 /* CancelTaskViewController.swift in Sources */,
 				5770C4D32BA920C8004C9B90 /* TimerViewController.swift in Sources */,
+				5770C5192BAEA3E9004C9B90 /* AsyncAwaitViewController.swift in Sources */,
 				5770C4D12BA91CDD004C9B90 /* FreeupMainThread.swift in Sources */,
+				5770C51F2BAEAD35004C9B90 /* TaskGroupViewController.swift in Sources */,
 				5770C5132BAD3EBB004C9B90 /* OperationQueueViewController.swift in Sources */,
 				5770C4C12BA8DE35004C9B90 /* ViewController.swift in Sources */,
 				5770C50F2BAD2C43004C9B90 /* SendableViewController.swift in Sources */,
@@ -210,10 +228,12 @@
 				5770C5032BAC033A004C9B90 /* DispatchGroupViewController.swift in Sources */,
 				5770C4F92BAA9602004C9B90 /* ThreadSanitizerViewController.swift in Sources */,
 				5770C4FD2BAAA419004C9B90 /* ThreadSanitizerLockViewController.swift in Sources */,
+				5770C51B2BAEA582004C9B90 /* AsyncAwaitLegacyViewController.swift in Sources */,
 				5770C5052BAC071A004C9B90 /* DispatchWorkItemViewController.swift in Sources */,
 				5770C5152BAD45C5004C9B90 /* OperationsViewController.swift in Sources */,
 				5770C50D2BAD0D12004C9B90 /* DispatchWorkItemCancelationViewController.swift in Sources */,
 				5770C5112BAD2CC4004C9B90 /* OperationViewController.swift in Sources */,
+				5770C5172BAE6362004C9B90 /* TaskViewController.swift in Sources */,
 				5770C4FB2BAA98F4004C9B90 /* TaskABCViewController.swift in Sources */,
 				5770C4FF2BABBB78004C9B90 /* SemaphoreViewController.swift in Sources */,
 				5770C4D52BA92374004C9B90 /* StopAfter5ViewController.swift in Sources */,
